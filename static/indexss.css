@@ -1,0 +1,8 @@
+.images{
+    width: 440px;
+    height: 450px;
+}
+.main{
+    background-color: bisque;
+    box-shadow: 4px 6px 4px gray;
+}

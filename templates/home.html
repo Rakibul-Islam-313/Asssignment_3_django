@@ -1,0 +1,16 @@
+{% extends 'base.html'%}
+{% load static %}
+
+{% block content %}
+
+  <div class="main d-flex flex-wrap justify-content-around align-items-center m-4 border border-2">
+    <div class="mainpera h-75 shadow-lg p-3 mb-5 bg-body rounded">
+        <p class="text-dark"> {{ p | truncatewords:15 }}</p>
+    </div>
+    <div class="mainimg m-4 ">
+        <img class="images shadow mb-5 bg-body rounded" src="{% static 'pexels-pixabay-262978.jpg' %}" alt="image" />
+    </div>
+  </div>
+
+{% endblock %}
+
